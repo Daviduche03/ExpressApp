@@ -1,8 +1,8 @@
-import exppres from "express";
+import express from "express";
 import cors from "cors";
-import { errorHandler } from "./middleware/errorMiddleware";
+import errorHandler from "./middlewares/errorMiddleware.js";
 import dotenv from "dotenv";
-import connectDB from './config/db'
+import connectDB from './config/db.js'
 const port = 8080;
 dotenv.config()
 
